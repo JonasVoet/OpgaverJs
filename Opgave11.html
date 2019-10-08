@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/colorGame.css">
+
+    <!-- Script -->
+    <script src="./assets/js/opgave11.js" defer></script>
+    <title>Opgave 11 ColorGame</title>
 </head>
+
 <body>
 
-        <div id="wrapper">
+    <h1>
+        Color Game
+        <br>
+        <span id="colorDisplay">RGB</span>
+        <br>
+        Held og lykke!
+    </h1>
 
-                <h1 id="overskrift">Opgave 11: Fri leg! Eksperimenter</h1>
-        
+    <div id="stripe">
+        <button id="reset">New Colors</button>
+        <span id="message"></span>
+        <button class="mode">Nemt</button>
+        <button class="mode selected">Svært</button>
+    </div>
 
-                <div id="opgaven">
-        
-                    <h4>Opgaven</h4>
-        
-                    <ol>
-                        <li>Find selv på et eller andet spændende, smart, sejt, sjovt ...</li>
-                        <li>Tag evt. udgangspunkt i en tidligere opgave - kopier koden herover og arbejd videre med det ...</li>
-                    </ol>
-        
-        
-                </div>
-        
-            </div>
-    
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
 </body>
+
 </html>

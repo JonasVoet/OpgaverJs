@@ -1,5 +1,5 @@
 
-let heading = document.getElementsById("heading");
+let heading = document.getElementById("heading");
 let button = document.getElementById("knap");
 button.addEventListener("click", styleHeading);
 
